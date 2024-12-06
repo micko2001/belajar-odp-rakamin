@@ -7,3 +7,4 @@ export default class Mamals extends Animal {
 
   isColored() {}
 }
+//halo semua
