@@ -28,3 +28,5 @@ const Fish = new Mamals("Lele", "omnivore");
 
 console.log(Tiger.isAdult());
 console.log(Fish);
+
+//halo cek lagi
