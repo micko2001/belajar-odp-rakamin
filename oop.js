@@ -30,3 +30,4 @@ console.log(Tiger.isAdult());
 console.log(Fish);
 
 //halo cek lagi
+//micko coba lagi
