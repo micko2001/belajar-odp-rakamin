@@ -1,10 +1,12 @@
 import Animal from "./Animal.js";
 
 export default class Mamals extends Animal {
-  constructor(name, food, color) {
-    super(name, food);
+  constructor(name, food, canReproduce, color) {
+    super(name, food, canReproduce, color);
   }
 
-  isColored() {}
+  isColored() {
+    return this.getColor() !== "white" ? true : false;
+  }
 }
 //halo semua

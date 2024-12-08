@@ -12,4 +12,8 @@ export default class Animal {
   isAdult() {
     return this.#age > 18 ? true : false;
   }
+
+  getColor() {
+    return this.#color;
+  }
 }
